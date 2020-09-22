@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any? do |calls|
-    calls > 4
+    calls.length > 4
   end
 end
 
